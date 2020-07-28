@@ -1,5 +1,5 @@
 let index = 0,
-    displayTime = 5000,
+    displayTime = 5,
     header = "",
     animationIn = undefined,
     animationOut = undefined,
@@ -11,7 +11,7 @@ let index = 0,
 
 window.addEventListener('onWidgetLoad', function(obj) {
     const fieldData = obj.detail.fieldData;
-    displayTime = fieldData.displayTime;
+    displayTime = fieldData.displayTime * 1000;
     header = fieldData.messageHeader;
     animationIn = fieldData.animationIn;
     animationOut = fieldData.animationOut;
