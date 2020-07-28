@@ -25,19 +25,18 @@
     padding: 10px;
     font-weight: bold;
     width: 100%;
-    box-shadow: 0 9.8px 8.6px rgba(0, 0, 0, 0.029), 0 17.5px 18.9px rgba(0, 0, 0, 0.047), 0 23px 33px rgba(0, 0, 0, 0.062), 0 27.7px 56.1px rgba(0, 0, 0, 0.078), 0 38px 102px rgba(0, 0, 0, 0.1);
 }
 
 .main-container.default .header {
     color: #fff;
-    width: 92%;
+    width: 88%;
     border-radius: 2px 10px 2px 2px;
     background: linear-gradient(to bottom, #343434, #282828, #111);
     margin-bottom: 5px;
 }
 
 .main-container.default .message {
-    width: 97%;
+    width: 92%;
     background: linear-gradient(to bottom, #a76bff, #9c59ff, #9147ff);
     border-radius: 2px 2px 10px 2px;
     color: #fff;
