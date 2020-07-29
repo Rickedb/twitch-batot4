@@ -4,6 +4,11 @@
         "label": "Total seconds it will be displayed:",
         "value": 5
     },
+    "idleTime": {
+        "type": "number",
+        "label": "Total seconds it will be idle:",
+        "value": 5
+    },
     "animationHeaderDuration": {
         "type": "number",
         "label": "Header animation duration (seconds):",
@@ -11,7 +16,7 @@
     },
     "animationMessageDuration": {
         "type": "number",
-        "label": "Mesasge animation duration (seconds):",
+        "label": "Message animation duration (seconds):",
         "value": 5
     },
     "animationIn": {
@@ -99,7 +104,7 @@
             "animate__rotateOutDownRight": "RotateOutDownRight",
             "animate__rotateOutUpLeft": "RotateOutUpLeft",
             "animate__rotateOutUpRight": "RotateOutUpRight",
-            "Hinge": "animate__hinge",
+            "animate__hinge": "Hinge",
             "animate__rollOut": "RollOut",
             "animate__zoomOut": "ZoomOut",
             "animate__zoomOutDown": "ZoomOutDown",

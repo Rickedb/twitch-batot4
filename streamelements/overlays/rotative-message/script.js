@@ -1,5 +1,6 @@
 let index = 0,
     displayTime = 5,
+    idleTime = 5,
     header = "",
     animationIn = undefined,
     animationOut = undefined,
@@ -12,6 +13,7 @@ let index = 0,
 window.addEventListener('onWidgetLoad', function(obj) {
     const fieldData = obj.detail.fieldData;
     displayTime = fieldData.displayTime * 1000;
+    idleTime = fieldData.idleTime * 1000;
     header = fieldData.messageHeader;
     animationIn = fieldData.animationIn;
     animationOut = fieldData.animationOut;
@@ -48,7 +50,7 @@ function next() {
 
         $messageElement.text(messages[index]);
         $messageElement.unbind('animationend');
-        setTimeout(loop, displayTime);
+        setTimeout(loop, idleTime);
     });
 
     $elements.addClass('animate__animated ' + animationOut);
